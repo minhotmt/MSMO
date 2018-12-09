@@ -1,0 +1,148 @@
+.container-header {
+	background-image: url("../images/bg1.png");
+	background-size: 100% 100%;
+    background-position: top;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 7rem;
+}
+.logo-text {
+  font-family: Futura;
+  font-size: 27px;
+}
+.detail-header {
+	margin-top: 22rem;
+}
+.detail-header h3 {
+  width: 391px;
+  height: 34px;
+  font-family: Futura;
+  font-size: 54px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.63;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.detail-header h4 {
+  margin-top: 30px;
+  font-family: Montserrat;
+  width: 254px;
+  height: 24px;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+.detail-header button {
+  margin-top: 30px;
+  width: 174px;
+  height: 50px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+.introduce {
+	padding-top: 100px;
+}
+.introduce img {
+	width: 100%;
+	height: 100%;
+}
+.introduce-left {
+	position: relative;
+}
+.introduce-left h3 {
+	position: absolute;
+	bottom: 15px;
+	left: 55px;
+	color: white;
+	font-family: Montserrat;
+    font-size: 36px;
+}
+.introduce-right {
+	position: relative;
+}
+.introduce-right-1 h3 {
+	position: relative;
+	bottom: 95px;
+	left: 25px;
+	color: white;
+}
+.introduce-right-2 {
+	background: #d0dfda;
+}
+.promotion {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-top: 5rem;
+	background: #c2bbad;
+	color: white;
+}
+
+.promotion-left h5{
+font-family: Montserrat;
+margin-bottom: 2rem;
+  font-size: 12px;
+}
+.promotion-left h2{
+	  font-family: Futura;
+  font-size: 36px;
+}
+.promotion-right h5{
+	margin-bottom: 2rem;
+	  font-family: Lato;
+  font-size: 14px;
+}
+.promotion button {
+	  width: 373px;
+  height: 50px;
+  background-color: #ffffff;
+    font-family: Montserrat;
+  font-size: 12px;
+    text-align: center;
+  color: #998e76;
+}
+.type-product {
+	margin-top: 5rem;
+}
+.type-one {
+	background-image: url("../images/home/type-one.png") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+.type-two {
+	background-image: url("../images/home/type-two.png") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+.type-three {
+	background-image: url("../images/home/type-three.png") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+.type-four {
+	background-image: url("../images/home/type-four.png") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+.type-product p {
+	 font-family: Montserrat;
+  font-size: 21px;
+}
+.best-seller {
+	margin-top: 5rem;
+}
