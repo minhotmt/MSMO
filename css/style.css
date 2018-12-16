@@ -50,6 +50,7 @@
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
+  border: none;
 }
 .introduce {
 	padding-top: 100px;
@@ -79,7 +80,33 @@
 	color: white;
 }
 .introduce-right-2 {
-	background: #d0dfda;
+  background: #d0dfda;
+  margin-top: -50px;
+  height: 44%;
+  padding-top: 23%;
+}
+.introduce-right-2 h4 {
+  font-family: Futura;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000000;
+  padding-left: 10%;
+}
+.introduce-right-2 h5 {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding-left: 10%;
+  padding-top: 3%;
+  color: #4a4a4a;
 }
 .promotion {
 	padding-top: 5rem;
@@ -112,6 +139,9 @@ margin-bottom: 2rem;
     text-align: center;
   color: #998e76;
 }
+.padding-type{
+  padding-right: 3px;
+}
 .type-product {
 	margin-top: 5rem;
 }
@@ -119,8 +149,13 @@ margin-bottom: 2rem;
 	background-image: url("../images/home/type-one.png") ;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 300px;
+  height: 300px;
 }
+
+.type-product center {
+  padding-top: 8%;
+}
+
 .type-two {
 	background-image: url("../images/home/type-two.png") ;
 	background-repeat: no-repeat;
@@ -139,10 +174,185 @@ margin-bottom: 2rem;
 	background-size: 100% 100%;
 	height: 300px;
 }
+.nav-item {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #000000;
+}
 .type-product p {
-	 font-family: Montserrat;
-  font-size: 21px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #000000;
 }
 .best-seller {
 	margin-top: 5rem;
 }
+.best-seller h2 {
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.hot-trend {
+  margin-top: 60px;
+  height: 500px;
+  background-image: linear-gradient(top, #efefef, #efefef 75%, transparent 75%, transparent 100%);
+  background-image: -webkit-linear-gradient(bottom, #efefef, #efefef 75%, transparent 75%, transparent 100%);
+  padding-left: 205px;
+
+}
+.hot-trend-right {
+
+}
+
+.hot-trend-left {
+  margin-top: 175px;
+  justify-content: center;
+  padding-right: 50rem;
+}
+.hot-trend-left p {
+  font-family: Montserrat;
+  font-size: 50px;
+}
+
+.margin-left {
+  margin-left: 73px;
+}
+.hot-trend-left button {
+  width: 222px;
+  height: 72px;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  margin-left: 25px;
+  font-size: 12px;
+  border: black solid 1px;
+}
+.events center{
+  font-family: Futura;
+  font-size: 44px;
+  margin-top: 93px;
+  margin-bottom: 45px;
+}
+.event-container div {
+  /* border: 1px solid #e5e5e5; */
+  padding-top: 26px;
+  padding-left: 26px;
+  padding-bottom: 23px;
+}
+.border-event {
+  border: 1px solid #e5e5e5;
+
+}
+.event-container div h6 {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.91;
+  letter-spacing: 0.9px;
+  color: #8d8d8d;
+
+}
+.event-container div h2 {
+  font-family: Futura;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.event-container div h4 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.event-container div p {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.91;
+  letter-spacing: 1px;
+  color: #b8b8b8;
+}
+.line {
+  height: 1px;
+  background:#e5e5e5;
+  margin-top: 35px;
+}
+footer {
+  background: #000000;
+  padding-top: 65px;
+  margin-top: 70px;
+
+  padding-bottom: 80px;
+}
+footer h3{
+  font-family: Futura;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+}
+footer h6 {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+footer h5 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+footer i {
+  color: #ffffff;
+  margin-left: 6%;
+}
+.social {
+text-align: right;
+}
+.policy h6{
+  text-align: right;
+  margin-top: 27px;
+}
+.best-seller

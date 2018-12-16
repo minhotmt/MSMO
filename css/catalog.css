@@ -1,0 +1,287 @@
+header {
+    border-bottom: 1px #d8d8d8 solid;
+}
+footer i {
+    color: #8d8d8d;
+}
+
+.dropdown {
+    text-align: right;
+}
+.menu {
+    border-bottom: 1px solid #d8d8d8;
+}
+.menu a {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+.cost i:first-child {
+    margin-left: 6px;
+}
+
+.cost i:last-child {
+    margin-left: 160px;
+
+}
+.branch {
+    margin-top: 46px;
+}
+.price {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.size {
+    margin-top: 31px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav button {
+    font-family: Lato;
+    font-size: 14px;
+    color: #000000;
+
+}
+.margin-check {
+    margin-left: 80px;
+}
+.content-product h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 17px;
+    margin-bottom: 4px;
+}
+.content-product h5 {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 30px;
+}
+.rs-filter {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 1px;
+    background: white;
+    color: #8d8d8d;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    margin-top: 35px;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+
+  padding-left: 12px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.navigate {
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.number-page {
+    text-align: center;
+}
+.subscriber {
+    background: #c2bbad;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.logo-text {
+    font-family: Futura;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+}
+footer {
+    padding-top: 75px;
+}
+.dropdown-container .form-check {
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.line {
+    height: 1px;
+    background:#e5e5e5;
+    margin-top: 35px;
+}
+.policy h6{
+    text-align: right;
+    margin-top: 27px;
+    margin-bottom: 50px;
+}
+footer i {
+    color: #8d8d8d;
+    margin-left: 6%;
+}
+.social {
+    text-align: right;
+}
+
+.subscriber h2 {
+    font-family: Unna;
+    font-size: 34px;
+    color: #ffffff;
+}
+.subscriber input {
+    background-color: #aea89b;
+    width: 35rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    padding-left: 15px;
+
+}
+::placeholder {
+    color: #ffffff;
+}
+.subscriber button {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #a99f8c;
+    background: white;
+    width: 10rem;
+}
+.custom {
+    background: white;
+    color: black;
+    border: none;
+    margin-top: 42px;
+    margin-bottom: 23px;
+}
+.content h4 {
+    font-family: Unna;
+    font-size: 20px;
+}
+.footer h3 {
+    font-family: Futura;
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    color: #000000;
+}
+.footer h6 {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #8d8d8d;
+}
+.footer h5 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+.line-small {
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 20px;
+    position: relative;
+}
+.segment {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.line-small::after {
+    content: '';
+    position: absolute;
+    left: calc(82%);
+    top: calc(69%);
+    width: 12px;
+    height: 12px;
+    background: #c2bbad;
+}
+.line-small::before {
+    content: '';
+    position: absolute;
+    left: calc(15%);
+    top: calc(69%);
+    width: 12px;
+    height: 12px;
+    background: #c2bbad;
+}
+
+.number-page i {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #8d8d8d;
+}

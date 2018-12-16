@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MSMOF</title>
+	<link rel="stylesheet" href="css/catalog.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/style.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="container-header">
+		<nav class="navbar navbar-expand-md navbar-light bg-black navbar-custom container">
+			<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">WOMAN</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">MAN</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">LOOK BOOK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">BLOG</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-auto order-0">
+				<a class="navbar-brand mx-auto logo-text" href="#">MSMOF</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">LOGIN</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section class="menu">
+		<nav class="navbar navbar-expand-md navbar-fixed-top main-nav">
+			<div class="container">
+				<ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
+					<li class="nav-item"><a class="nav-link" href="#">NEW</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">CLOTHES</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">ACCESORIES</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">SHOES</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">INSPIRATION</a></li>
+					<button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false"
+					 aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+	<section class="content container">
+		<div class="dropdown">
+			<button class="btn dropdown-toggle custom" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+			 aria-haspopup="true" aria-expanded="false">
+				SORT BY PRICE
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">LOW -> HIGH</a>
+				<a class="dropdown-item" href="#">HIGH -> LOW</a>
+				<a class="dropdown-item" href="#">HOT</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-lg-3">
+				<h4>Category</h4>
+				<div class="sidenav">
+					<button class="dropdown-btn">Accessories
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+				<div class="sidenav">
+					<button class="dropdown-btn">Bags
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+				<div class="sidenav">
+					<button class="dropdown-btn">Clothing
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+
+						<div class="form-check">
+							<label class="form-check-label" for="check1">
+								<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">Dresses
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label" for="check1">
+								<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">Shirts
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label" for="check1">
+								<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">Trousers
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label" for="check1">
+								<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">Jeans
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="sidenav">
+					<button class="dropdown-btn">Shoes
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+				<div class="sidenav">
+					<button class="dropdown-btn">Watches
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+
+				<h4 class="branch">Branchs</h4>
+				<input type="text" class="form-control" placeholder="Search" id="usr">
+				<h4 class="price">Price</h4>
+
+				<div class="cost">
+					<i>$300</i>
+					<i>$700</i>
+				</div>
+				<div class="line-small">
+					<div class="segment">
+
+					</div>
+				</div>
+
+
+				<h4 class="size">SIZE</h4>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">XS
+					</label>
+					<label class="form-check-label margin-check" for="check1">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">L
+					</label>
+					<br>
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">S
+					</label>
+					<label class="form-check-label margin-check" for="check1">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">XL
+					</label>
+					<br>
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">M
+					</label>
+					<label class="form-check-label margin-check" for="check1">
+						<input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">XXL
+					</label>
+					<br>
+				</div>
+				<button class="rs-filter">RESET FILTER</button>
+			</div>
+
+			<div class="col-md-9 col-lg-9 row content-product">
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/1.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/2.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/3.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/4.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/5.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<img src="images/catalog/6.png" width="100%" />
+					<center>
+						<h3>Green Silk Shirt</h3>
+						<h5>USD 121</h5>
+					</center>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3"></div>
+			<div class="col-md-9 col-lg-9 navigate">
+				<div class="number-page">
+					<i>1</i>
+					<i>2</i>
+					<i>3</i>
+					<i>4</i>
+					<i>5</i>
+					<i>...</i>
+					<i>234</i>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="subscriber row">
+		<h2>Subscribe now </h2>
+		<input placeholder="Enter your email" />
+		<button>SUBSCRIBER</button>
+
+
+
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-3">
+					<h3>MSMOF</h3>
+					<h6>66 rue Condorcet</h6>
+					<h6>75009 Paris, France</h6>
+				</div>
+				<div class="col-md-2 col-lg-2">
+					<h5>CONTACT</h5>
+					<h5>OUR STORE</h5>
+					<h5>CAREERS</h5>
+				</div>
+				<div class="col-md-2 col-lg-2">
+					<h5>FAQ</h5>
+					<h5>DELIVERY</h5>
+					<h5>PAYMENT</h5>
+				</div>
+				<div class="col-md-2 col-lg-2">
+					<h5>BLOG</h5>
+					<h5>SALE</h5>
+					<h5>PARTNERSHIP</h5>
+				</div>
+				<div class="col-md-3 col-lg-3 social">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-tumblr"></i>
+					<i class="fa fa-pinterest"></i>
+				</div>
+				<div class="line col-md-12 col-lg-12">
+				</div>
+			</div>
+		</div>
+		<div class="policy container">
+			<h6>Privacy Policy Terms of Servise</h6>
+		</div>
+
+	</footer>
+
+</body>
+<script src="js/category.js"></script>
+
+
+</html>
