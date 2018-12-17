@@ -1,0 +1,131 @@
+.bg-head {
+    height: 400px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+}
+.bg-head h2 {
+    font-family: Futura;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #000000;
+}
+.bg-head h4 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: -0.1px;
+    color: #000000;
+}
+.bg-head h5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.bg-head h6 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #8d8d8d;
+}
+.form-contact {
+    background: white;
+    z-index: 2;
+    margin: auto;
+    position: absolute;
+    bottom: -225px;
+    padding-top: 60px;
+
+}
+.content-form {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+footer {
+    margin-top: 450px;
+}
+.line {
+    height: 1px;
+    background:#e5e5e5;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.policy {
+    text-align: right;
+}
+.social i {
+    color: #c2bbad;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+form label {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 1px;
+    color: #000000;
+}
+form button {
+    background-color: #998e76;
+    width: 100%;
+    height: 48px;
+
+}
+footer h3 {
+    font-family: Futura;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    color: #000000;
+    margin-bottom: 100px;
+}
+footer h5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: 1.3px;
+    color: #000000;
+}
+.sl-two {
+    margin-left: 15px;
+}
+select {
+    background: white;
+    border: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #999999;
+}

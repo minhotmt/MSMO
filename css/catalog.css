@@ -285,3 +285,10 @@ footer i {
     text-align: center;
     color: #8d8d8d;
 }
+.form-check-left {
+    width: 40%;
+    margin-left: 10%;
+}
+.form-check-right {
+    width: 40%;
+}
