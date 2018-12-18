@@ -65,6 +65,7 @@
     background: white;
     width: 70px;
 }
+
 .btn {
     text-align: center;
 }
@@ -77,4 +78,74 @@
 .btn-1 {
     margin-left: 30px;
     margin-top: 20px;
+}
+.order-detail {
+    background: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.order-title h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.order-title {
+    border-bottom: white 1px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.order h4 {
+    opacity: 0.7;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.checkout {
+    background: white;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    margin-bottom: 45px;
+    align-content: center;
+}
+
+.total {
+    border-top: 1px solid white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.order {
+    margin-top: 90px;
+    margin-bottom: 250px;
+}
+.txt-left {
+    text-align: left;
+}
+.promo {
+    background-color: #333333;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+}
+.btn-check {
+    text-align: center;
+    margin-top: 60px;
+}
+.al-left {
+    text-align: left;
 }
