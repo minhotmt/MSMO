@@ -136,6 +136,7 @@ margin-bottom: 2rem;
   font-size: 12px;
     text-align: center;
   color: #998e76;
+  border: none;
 }
 .padding-type{
   padding-right: 3px;
@@ -353,4 +354,3 @@ text-align: right;
   text-align: right;
   margin-top: 27px;
 }
-.best-seller

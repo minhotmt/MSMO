@@ -187,6 +187,7 @@ footer i {
     margin-left: 3rem;
     margin-right: 1rem;
     padding-left: 15px;
+    border: none;
 
 }
 ::placeholder {
@@ -204,6 +205,7 @@ footer i {
     color: #a99f8c;
     background: white;
     width: 10rem;
+    border: none;
 }
 .custom {
     background: white;

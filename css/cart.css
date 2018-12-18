@@ -1,0 +1,80 @@
+.name h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.list-product {
+    border-bottom: 1px solid #979797;
+    padding-bottom: 30px;
+}
+.list-product h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.title {
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    align-items: center;
+}
+.content h6 {
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+.content{
+    margin-top: 30px;
+}
+.content h4 {
+    margin-bottom: 27px;
+    margin-top: 10px;
+}
+.content h5 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    color: #000000;
+}
+.content button {
+    border: 1px solid #979797;
+    background: white;
+    width: 70px;
+}
+.btn {
+    text-align: center;
+}
+.cost {
+    text-align: center;
+}
+.cost-1 {
+    margin-top: 20px;
+}
+.btn-1 {
+    margin-left: 30px;
+    margin-top: 20px;
+}

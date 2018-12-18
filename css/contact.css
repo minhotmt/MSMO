@@ -1,8 +1,20 @@
 .bg-head {
     height: 400px;
-    background-color: red;
+    background-image: url("../images/contact/bg-contact.png");
+    background-image: no-repeat;
+    background-size: 100%;
+    width: 100%;
     position: relative;
     z-index: 1;
+}
+header a {
+    color: black;
+}
+.fa-search {
+    color: #838383;
+}
+.fa-shopping-bag {
+    color: #838383;
 }
 .bg-head h2 {
     font-family: Futura;
