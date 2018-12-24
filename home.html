@@ -64,7 +64,7 @@
 		<center class="detail-header">
 			<h3>Black Collection</h3>
 			<h4>Your Fashion Destination</h4>
-			<button>SHOP NOW</button>
+			<button id="shopnow">SHOP NOW</button>
 		</center>
 	</header>
 
@@ -157,8 +157,6 @@
 							<img class="img-fluid" src="images/home/Insta 1-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
-
 						</div>
 					</div>
 				</div>
@@ -168,8 +166,6 @@
 							<img class="img-fluid" src="images/home/Insta 2-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
-
 						</div>
 					</div>
 				</div>
@@ -179,8 +175,6 @@
 							<img class="img-fluid" src="images/home/Insta 3-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
-
 						</div>
 					</div>
 				</div>
@@ -201,7 +195,6 @@
 							<img class="img-fluid" src="images/home/Insta 6-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
 						</div>
 					</div>
 				</div>
@@ -211,7 +204,6 @@
 							<img class="img-fluid" src="images/home/Insta 3-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
 						</div>
 					</div>
 				</div>
@@ -221,7 +213,6 @@
 							<img class="img-fluid" src="images/home/Insta 2-02.png" alt="Carousel 1">
 						</div>
 						<div class="card-block p-t-2">
-
 						</div>
 					</div>
 				</div>
@@ -231,13 +222,12 @@
 								<img class="img-fluid" src="images/home/Insta 1-02.png" alt="Carousel 1">
 							</div>
 							<div class="card-block p-t-2">
-	
+
 							</div>
 						</div>
 					</div>
 			</div>
 		</div>
-
 		<!-- <div class="container">
 			<div class="row">
 				<div class="col-12 text-center mb-4">
@@ -363,6 +353,10 @@
 			$('.prev').click(function () { $('.carousel').carousel('prev'); return false; });
 		})
 			(jQuery);
+			document.getElementById("shopnow").addEventListener("click", myFunction);
+			function myFunction() {
+				window.location.href = 'cart.html';
+			}
 	</script>
 
 </body>
